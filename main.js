@@ -26,3 +26,10 @@ for (word of storyWords) {
     basCount += 1;
   };
 }
+
+let sentenceCount = 0;
+
+for (word of storyWords) {
+  console.log(word[word.length -1])
+
+};
