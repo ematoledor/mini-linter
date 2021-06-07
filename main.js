@@ -30,6 +30,15 @@ for (word of storyWords) {
 let sentenceCount = 0;
 
 for (word of storyWords) {
-  console.log(word[word.length -1])
+  console.log(word[word.length -1] === "." || word[word.length - 1] === "!") {
+    sentenceCount += 1
+  }
+}
 
-};
+console.log("Word count", storyWords.length)
+console.log("Sentence count", sentenceCount)
+console.log("really:", reallyCount)
+console.log("vwry:", veryCount)
+console.log("basically:", basCount)
+
+console.log(betterWords.join(" "))
