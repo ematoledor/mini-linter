@@ -42,3 +42,6 @@ console.log("vwry:", veryCount)
 console.log("basically:", basCount)
 
 console.log(betterWords.join(" "))
+
+
+// Done. Analysis
